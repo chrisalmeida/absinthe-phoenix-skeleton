@@ -54,3 +54,5 @@ config :skeleton, Skeleton.Repo,
   database: "skeleton_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :joken, default_signer: System.get_env("JOKEN_SECRET") || "secret"
