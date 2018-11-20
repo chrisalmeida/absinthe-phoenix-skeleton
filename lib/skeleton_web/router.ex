@@ -16,7 +16,7 @@ defmodule SkeletonWeb.Router do
   end
 
   @doc """
-    Verify that signed JWT was sent with response
+    Verify that signed JWT was sent with request
     and that there is a user with an ID in JWT
   """
   defp verify_jwt(conn, _) do
