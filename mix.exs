@@ -44,7 +44,8 @@ defmodule Skeleton.MixProject do
       {:absinthe_plug, "~> 1.4"},
       {:absinthe, "~> 1.4"},
       {:comeonin, "~> 4.1"},
-      {:bcrypt_elixir, "~> 1.1"}
+      {:bcrypt_elixir, "~> 1.1"},
+      {:joken, "~> 1.5"}
     ]
   end
 
